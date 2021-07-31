@@ -146,7 +146,7 @@ body {
     -o-transition: var(--main-duration) ;
 }
 
-.header .links:hover .icon span:nth-child(2), .header .links:active .icon span:nth-child(2) {
+.header .links:hover .icon span:nth-child(2) {
     height: 2px;
     width: 100%;
 }
@@ -165,7 +165,7 @@ body {
     right: 0;
     min-width: 200px;
     top: calc(100% + 15px);
-    visibility: hidden;
+    display: none;
 }
 
 .header .links ul::before {
@@ -178,9 +178,9 @@ body {
     top: -20px;
 }
 
-.header .links:hover ul, .header .links:active ul {
-    visibility: visible;
-    z-index: 1;
+.header .links:hover ul {
+    display:block;
+    z-index: 8;
 }
 
 
