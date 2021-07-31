@@ -165,7 +165,7 @@ body {
     right: 0;
     min-width: 200px;
     top: calc(100% + 15px);
-    display: none;
+    visibility: hidden;
 }
 
 .header .links ul::before {
@@ -179,7 +179,7 @@ body {
 }
 
 .header .links:hover ul, .header .links:active ul {
-    display: block;
+    visibility: visible;
     z-index: 1;
 }
 
