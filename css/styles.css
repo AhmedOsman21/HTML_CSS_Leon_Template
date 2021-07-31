@@ -146,7 +146,7 @@ body {
     -o-transition: var(--main-duration) ;
 }
 
-.header .links:hover .icon span:nth-child(2) {
+.header .links:hover .icon span:nth-child(2), .header .links:active .icon span:nth-child(2) {
     height: 2px;
     width: 100%;
 }
@@ -178,7 +178,7 @@ body {
     top: -20px;
 }
 
-.header .links:hover ul {
+.header .links:hover ul, .header .links:active ul {
     display: block;
     z-index: 1;
 }
